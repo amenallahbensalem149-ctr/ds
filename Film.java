@@ -1,11 +1,11 @@
 package ex2;
 import java.util.Scanner;
 public class Film {
-	private String titre;
-	private String realisateur;
-	private String pays;
-	private int duree;
-	private int nbplaces;
+	protected String titre;
+	protected String realisateur;
+	protected String pays;
+	protected int duree;
+	protected int nbplaces;
 	
 	public int getNbplaces() {
 		return this.nbplaces;
@@ -59,6 +59,7 @@ class Documentaire extends Film{
 	}
 	
 }
+
 
 
 
